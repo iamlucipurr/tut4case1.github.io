@@ -1,0 +1,119 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 1
+
+   History Style Sheet
+   Author: Jake Aubrey
+   Date:   11/21/2016
+
+   Filename:         history.css
+   Supporting Files: 
+
+*/
+
+
+
+
+/* block settings */
+
+header, section, nav {
+	
+	display: block;
+	
+	
+}
+/* style rules that adjust default margin */
+
+
+* {
+	
+	margin: 0px;
+	
+}
+
+/* header styles */
+
+header {
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	width: 55em;
+	
+}
+header img {
+	height: 4em;
+}
+
+/* nav styles */
+
+nav {
+	float: left;
+	width: 15em;
+	background-color: rgb(51, 51, 51);
+}
+nav li {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.7em;
+	list-style-type: none;
+	line-height: 1.4em;
+	margin-left: .5em;
+	margin-bottom: 1.2em;
+	
+}
+
+nav li a {
+	color: rgb(212, 212, 212);
+	text-decoration: none;
+	
+}
+
+nav li a:hover {
+	color: white;
+	
+}
+
+/* section styles */
+
+section {
+	background-color: rgb(212, 212, 212);
+	width: 40em;
+	float: left;
+	font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino', serif;
+	
+}
+
+section h1 {
+	background-color: rgb(51, 51, 51);
+	color: rgb(212, 212, 212);
+	font-size: 2em;
+	text-align: center;
+	
+}
+section p {
+	font-size: 0.9em;
+	margin: 1em;
+	
+}
+
+section p:first-of-type:first-letter {
+	float: left;
+	font-size: 4em;
+	line-height: 0.8em;
+	margin-right: 0.3em;
+	padding-right: 0.2em;
+	padding-bottom: 0.2em;
+	border-right: solid 0.02em black;
+	border-bottom: solid 0.02em black;
+	
+}
+section p:first-line {
+	font-variant: small-caps;
+}
+
+/* image line up */
+
+section p img {
+	float: right;
+	clear: right;
+	height: 4em;
+}
